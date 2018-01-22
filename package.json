@@ -1,0 +1,24 @@
+{
+  "name": "bs-react-bootstrap",
+  "version": "0.1.0",
+  "scripts": {
+    "clean": "bsb -clean-world",
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w",
+    "watch:jest": "jest --watchAll --coverage"
+  },
+  "keywords": [
+    "BuckleScript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "bs-platform": "^2.1.0",
+    "bs-jest": "^0.3.2"
+  },
+  "jest": {
+    "testMatch": [
+      "**/__tests__/**/*_test.bs.js"
+    ]
+  }
+}
