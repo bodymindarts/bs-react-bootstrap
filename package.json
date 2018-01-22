@@ -1,5 +1,5 @@
 {
-  "name": "bs-react-bootstrap",
+  "name": "react-bootstrap",
   "version": "0.1.0",
   "scripts": {
     "clean": "bsb -clean-world",
@@ -12,6 +12,11 @@
   ],
   "author": "",
   "license": "MIT",
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "reason-react": "^0.3.1"
+  },
   "devDependencies": {
     "bs-platform": "^2.1.0",
     "bs-jest": "^0.3.2"

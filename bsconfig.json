@@ -1,8 +1,12 @@
 {
   "name": "react-bootstrap",
+  "reason": {"react-jsx" : 2},
   "version": "0.1.0",
   "sources": [
-    "src",
+    {
+      "dir": "src",
+      "subdirs": true
+    },
     {
       "dir": "__tests__",
       "type": "dev"
@@ -13,6 +17,10 @@
     "in-source": true
   },
   "suffix": ".bs.js",
+  "namespace": true,
+  "bs-dependencies": [
+    "reason-react"
+  ],
   "bs-dev-dependencies": [
     "bs-jest"
   ],
